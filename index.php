@@ -12,8 +12,10 @@
 <body>
     <div id="index">
         <div><span>NexSeed OKINAWA</span>7batch</div>
-        <div></div>
-
+    </div>
+    <div class="index-container">
+    <?php include('./php_parts/header.php'); ?>
+    
 
     </div>
 </body>
