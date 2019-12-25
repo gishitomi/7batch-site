@@ -32,7 +32,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-#index {
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
   background-color: #111;
   background-image: radial-gradient(#333, #111);
   background-size: cover;
@@ -62,36 +66,20 @@ table {
   opacity: 0;
   left: 10vw;
   width: 80vw;
-  -webkit-animation: switch 32s linear infinite;
-          animation: switch 32s linear infinite; }
+  -webkit-animation: switch 20s ease-in 2s;
+          animation: switch 20s ease-in 2s; }
+
+#index div:nth-child(1) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s; }
 
 #index div:nth-child(2) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s; }
-
-#index div:nth-child(3) {
   -webkit-animation-delay: 8s;
           animation-delay: 8s; }
 
-#index div:nth-child(4) {
-  -webkit-animation-delay: 12s;
-          animation-delay: 12s; }
-
-#index div:nth-child(5) {
-  -webkit-animation-delay: 16s;
-          animation-delay: 16s; }
-
-#index div:nth-child(6) {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s; }
-
-#index div:nth-child(7) {
-  -webkit-animation-delay: 24s;
-          animation-delay: 24s; }
-
-#index div:nth-child(8) {
-  -webkit-animation-delay: 28s;
-          animation-delay: 28s; }
+#index div:nth-child(3) {
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s; }
 
 @-webkit-keyframes switch {
   0% {
@@ -152,6 +140,46 @@ table {
     opacity: 0; }
   100% {
     opacity: 0; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
+  font: 300 30px/1 "Open Sans Condensed", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  -webkit-animation: 60s credits linear 21s;
+          animation: 60s credits linear 21s; }
+
+.movie {
+  margin-bottom: 50px;
+  font-size: 50px; }
+
+.teacher {
+  margin-top: 300px;
+  margin-bottom: 150px;
+  font-size: 35px;
+  text-transform: uppercase; }
+
+@-webkit-keyframes credits {
+  0% {
+    top: 100%; }
+  100% {
+    top: -500%; } }
+
+@keyframes credits {
+  0% {
+    top: 100%; }
+  100% {
+    top: -500%; } }
 
 #main {
   height: 1000px; }
