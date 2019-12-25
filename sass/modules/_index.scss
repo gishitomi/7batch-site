@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body {
+#index {
     background-color: #111;
     background-image: radial-gradient(#333, #111);
     background-size: cover;
@@ -16,7 +16,8 @@ body {
 #index {
     font-size: 4em;
     margin: 40vh auto;
-    height: 20vh;
+    // height: 20vh;
+    height: 100vh;
     text-transform: uppercase;
 }
 
