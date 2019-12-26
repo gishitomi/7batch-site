@@ -19,12 +19,17 @@
         <!-- しょーたくんもコメント書き込んでね(・∀・) -->
         <div>しょーたコメントすべし(・Д・)ノ<span>by紹太</span></div>
         <div>思い出いっぱいありがとう*\(^o^)/*<span>by 朋夜</span></div>
+
         <div class="fadein">    
                 <a href="">life</a>
                 <a href="">study</a>
                 <a href="">contact</a>
                 <a href="">7batch</a>
         </div>
+
+        <!-- 書き込みました -->
+        <!-- <div>3ヶ月間ありがとうございました！！</div> -->
+
     </div>
 
     <div class='wrapper'>

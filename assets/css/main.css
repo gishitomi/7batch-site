@@ -1,0 +1,13 @@
+#main header {
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+#main header .header-img {
+  height: 80%; }
+
+#main header .header-img img {
+  width: 90%;
+  height: 40%; }
+
+/*# sourceMappingURL=main.css.map */
