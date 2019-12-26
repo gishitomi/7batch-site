@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
-html {
-  height: 100%;
-}
-
-body {
+.endroll {
   height: 100%;
   background-color: #111;
   background-image: radial-gradient(#333, #111);
@@ -109,7 +105,7 @@ body {
 
 .teacher {
   margin-top: 300px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-size: 35px;
   text-transform: uppercase;
 }
@@ -120,5 +116,28 @@ body {
   }
   100% {
     top: -500%;
+  }
+}
+
+#index >.fadein {
+  animation: fadeIn 3s ease-in 60s;
+  animation-fill-mode: forwards;
+  font-size: 0.8em;
+  margin: 25px;
+  color: #fff;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body class="endroll">
+
     <div id="index">
         <div><span>NexSeed OKINAWA</span>7batch</div>
         <!-- 画像真ん中こないからやーめた(´-ω-`) -->
@@ -18,7 +19,12 @@
         <!-- しょーたくんもコメント書き込んでね(・∀・) -->
         <div>しょーたコメントすべし(・Д・)ノ<span>by紹太</span></div>
         <div>思い出いっぱいありがとう*\(^o^)/*<span>by 朋夜</span></div>
-
+        <div class="fadein">    
+                <a href="">life</a>
+                <a href="">study</a>
+                <a href="">contact</a>
+                <a href="">7batch</a>
+        </div>
     </div>
 
     <div class='wrapper'>
@@ -36,9 +42,9 @@
         <div class="teacher">special thanks</div>
         <div class='movie'>Kan Yoneda</div>
         <div class='movie'>Atsushi Ikeda</div>
-
-
+        <div class='movie'>Anri Tomita</div>
     </div>
+
 </body>
 
 </html>
